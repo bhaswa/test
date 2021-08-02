@@ -8,3 +8,4 @@ jobs:
       - name: cml_run
         run: |
           nvidia-smi > report.md
+          cml-send-comment report.md
